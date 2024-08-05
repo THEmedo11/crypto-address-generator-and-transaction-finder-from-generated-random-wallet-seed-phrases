@@ -22,7 +22,7 @@ file_path = 'data.json'
 
 def check_transactions(address):
     # Replace 'YOUR_API_KEY' with your Etherscan API key
-    api_eth = 'YOUR_API_KEY'
+    api_eth = 'YT7E47XI9VQEAH5MUFH6XMKP3A8S89B1YH'
     # Construct the API endpoint URL
     url = f"https://api.etherscan.io/api?module=account&action=txlist&address={address}&startblock=0&endblock=99999999&sort=asc&apikey={api_eth}"
 
